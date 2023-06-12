@@ -48,3 +48,6 @@ img:hover{
 main{
     display: flex;
 }
+footer a{
+    color: white;
+}
