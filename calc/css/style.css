@@ -1,0 +1,22 @@
+button{
+    width: 30%;
+    background: linear-gradient(white, lightblue);
+    height: 40px;
+    margin: 1%;
+    border: 1px solid gray;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    padding: 2%;
+    text-align: right;
+    height: 80px;
+    margin: 10px;
+    background-color: lightblue;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <title>cool stifff</title>
+    <style>
+        body{
+            background-image: url('kattens/coter.jfif');
+            margin: 0px;
+        }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 80px;
+        }
+        h1,h3{
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            user-select: none;
+        }
+        a{
+            padding: 10px;
+            border: 2px solid black;
+            background-color: bisque;
+        }
+        a:hover{
+            background-color: darksalmon;
+        }
+        div{
+            user-select: none;
+            text-decoration: underline;
+        }
+        div:hover{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>personal projekts :33</h1>
+    <section>
+        <a href="https://epicalendar.net/"><img src="kattens/katten12.webp"><p>funny calendario!!!</p></a>
+        <a href="generator/index.html"><img src="kattens/katten6.webp"><p>generate game bux</p></a>
+    </section>
+    <h1>school stuf !!!!</h1>
+    <section>
+        <a href="calc/index.html"><img src="kattens/katten.webp"><p>epic calculator</p></a>
+        <a href="restapi/index.html"><img src="kattens/katten2.webp"><p>epic restapi ??</p></a>
+        <a href="imgwapp/index.html"><img src="kattens/katten3.webp"><p>image wap :33333</p></a>
+        <a href="counter/index.html"><img src="kattens/katten4.jpg"><p>count numbers</p></a>
+        <a href="lotto/index.html"><img src="kattens/katten5.webp"><p>rando generate....</p></a>
+    </section>
+    <footer>
+        <h3>epic portfolio website made by <div>6</div>my discord: Flame Riddle#4331</h3>
+    </footer>
+</body>
+<script>
+    'use strict';
+    const alias = ['6', 'flameriddle', 'silly cat, lovely cat', 'sam']
+    let counter = 0;
+    const div = document.querySelector('div')
+    div.addEventListener('click', () => {
+        ++counter;
+        div.innerText = alias[counter % alias.length];
+    })
+</script>
+</html>

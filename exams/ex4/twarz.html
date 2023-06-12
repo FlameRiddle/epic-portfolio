@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi kosmetyczne</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <main>
+        <section>
+            <div id="tleft">
+                <h2>W ofercie</h2>
+                <ul>
+                    <li><a href="twarz.html">Zabiegi na twarz</a>
+                        <ol>
+                            <li>Piling</li>
+                            <li>Maska</li>
+                            <li>Regulacja brwi</li>
+                        </ol>
+                    </li>
+                    <li>Masaż</li>
+                    <li>Diety oczyszczające</li>
+                </ul>
+                <a href="index.html">Do strony głównej</a>
+            </div>
+            <div id="bleft">
+                <img src="obraz1.jpg" alt="Kosmetyczka">
+            </div>
+        </section>
+
+        <section>
+            <div id="tright">
+                <h1>Salon Kosmetyczny</h1>
+            </div>
+            <div id="bright">
+                <h2>Sprawdź cenę swojej wizyty</h2>
+                <input type="checkbox" id="piling" value="3">
+                <label for="piling">Piling</label><br>
+                <input type="checkbox" id="maska">
+                <label for="maska">Maska</label><br>
+                <input type="checkbox" id="masaż">
+                <label for="masaż">Masaż twarzy</label><br>
+                <input type="checkbox" id="regulacja">
+                <label for="regulacja">Regulacja brwi</label><br>
+                <input type="checkbox" id="regulacja">
+                <label for="regulacja">Regulacja brwi</label><br>
+                <input type="checkbox" id="regulacja">
+                <label for="regulacja">Regulacja brwi</label><br>
+                <button>Sprawdź cenę</button>
+                <div id="output"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor: 6</p>
+    </footer>
+    
+</body>
+<script>
+    document.querySelector('button').addEventListener('click', () => {
+        const ceny = [45, 30, 20, 5, 100, 26]
+        let cena = 0
+        let i = 0
+        document.querySelectorAll('input').forEach(element => {
+            if(element.checked == true){
+                cena += ceny[i]
+            }
+            i++
+        });
+        document.querySelector('#output').innerText = 'Cena zabiegu: ' + cena
+    })
+</script>
+</html>

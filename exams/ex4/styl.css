@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+
+    font-family: Garamond;
+    overflow-x: hidden;
+}
+#tleft{
+    height: 500px;
+    width: 25vw;
+    background-color: lavender;
+}
+#bleft{
+    height: 300px;
+    width: 25vw;
+    background-color: lavender;
+}
+#tright{
+    height: 150px;
+    width: 75vw;
+    background-color: indigo;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+#bright{
+    height: 650px;
+    width: 75vw;
+    background-color: lavender;
+    font-size: 200%;
+    text-align: center;
+}
+footer{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+}
+img{
+    padding: 5px;
+    margin: 10px;
+}
+img:hover{
+    padding: 4px;
+    border: solid 1px indigo;
+}
+main{
+    display: flex;
+}

@@ -1,0 +1,36 @@
+body{
+    background-image: url('donlar.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: white;
+    border: 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+    border-style: dashed;
+}
+h1{
+    color: white;
+}
+button{
+    background-image: url(rain.gif);
+    background-size: cover;
+    height: 100px;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+button:hover{
+    border: white 20px;
+}

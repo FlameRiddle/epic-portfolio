@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <header>
+        <h1><a href="index.html">Sprawdź swoje hasło</a></h1>
+    </header>
+
+    <main>
+        <div id="left">
+            <h2>Wybierz</h2>
+            <ol>
+                <li><a href="haslo.html">Sprawdź hasło</a></li>
+                <li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+            </ol>
+        </div>
+        <div id="right">
+            <img src="haslo.png">
+            <p>Twoje hasło:</p><input type="text"><button onclick="script()">Sprawdź</button>
+            <br>
+            <div id="output"></div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Miernik jakości hasła</h3>
+        <p>Stronę opracował: 6</p>
+    </footer>
+
+</body>
+<script>
+    const pass = document.querySelector('input')
+    const output = document.querySelector('#output')
+    function script(){
+        console.log(pass.value)
+        if(pass.value == ''){
+            output.style.color = 'red'
+            output.innerText = 'WPISZ HASŁO!'
+        }else{
+            if(pass.value.length >= 4 && pass.value.length <= 6 && /\d/.test(pass.value)){
+                output.style.color = 'blue'
+                output.innerText = 'ŚREDNIE'
+            }else{
+                if(pass.value.length >= 7 && /\d/.test(pass.value)){
+                    output.style.color = 'green'
+                    output.innerText = 'DOBRE'
+                }else{
+                    output.style.color = 'yellow'
+                    output.innerText = 'SŁABE'
+                }
+            }}
+    }
+</script>
+</html>
