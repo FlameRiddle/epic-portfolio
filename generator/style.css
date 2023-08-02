@@ -34,3 +34,11 @@ button{
 button:hover{
     border: white 20px;
 }
+footer{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+a{
+    color: white;
+}
