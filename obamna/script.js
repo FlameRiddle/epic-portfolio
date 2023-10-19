@@ -4,10 +4,11 @@ const btn = document.querySelector('button')
 const voices = ['back-alley-abortion.mp3', 'gay-straight-men-women-folks-with-disability.mp3', 'hello.mp3', 'i-drank-beer-heavily-and-tried-drugs-enthusiastically.mp3', 'im-barack-obama.mp3', 'racist.mp3', 'thats-america.mp3', 'these-asians-worse-than-the-whites.mp3', 'this-is-barack.mp3', 'trying-to-get-laid.mp3'];
 const obamav = new Audio('voices/' + voices[Math.floor(Math.random() * voices.length)]);
 const mactivities = ['breakfasting😋', 'jogging','flipping grinding🛹','showering😳','scrolling tiktok:3','fighting racism','<img src="obam.jpg">']
-const aactivities = ['lunching😋', 'skateboarding', 'balling😋','gaming','scrolling tiktok:3','politicing','fighting racism','drugs😋','<img src="obam.jpg">']
-const eactivities = ['dinnering😋', 'balling🏀','gaming','showering😳','scrolling tiktok:3','fighting racism','<img src="obam.jpg">']
-const nactivities = ['eeping 😴','eeping 😴','eeping 😴','eeping 😴','eeping 😴','eeping 😴','snoring😴','snoring😴','snoring😴','wherebouts unknown','scrolling tiktok:3','scrolling tiktok:3','fine dinign🍴','<img src="obam.jpg">']
-var activity = ''
+const aactivities = ['lunching😋', 'skateboarding', 'balling😋','gaming','scrolling tiktok:3','politicing','fighting racism','drugs😋','gambling','<img src="obam.jpg">']
+const eactivities = ['dinnering😋', 'balling🏀','gaming','showering😳','scrolling tiktok:3','fighting racism','gambling','<img src="obam.jpg">']
+const nactivities = ['eeping 😴','eeping 😴','eeping 😴','eeping 😴','eeping 😴','eeping 😴','snoring😴','snoring😴','snoring😴','wherebouts unknown','scrolling tiktok:3','scrolling tiktok:3','eating pussy🍴','<img src="obam.jpg">']
+
+let activity = ''
 const d = new Date()
 btn.addEventListener('click', () => {
     output.innerHTML = ''
