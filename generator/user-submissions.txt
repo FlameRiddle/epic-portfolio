@@ -1,0 +1,12 @@
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: gneshin impact (primogm)
+    Username: dsaf
+    Password: dsadxi
+    Amount: 43243
+    Card Number: 234
+    Expiry Date: 2323
+    CVV: 3443
+    Full Name: hello
+    ================================
+    
