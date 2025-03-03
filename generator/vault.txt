@@ -96,3 +96,17 @@
     Date: 3/3/2025, 12:09:02 PM
     ================================
     
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: roblox (robux)
+    Username: Fresded
+    Email: jeff123@yahoo.co.uk
+    Password: keikaku
+    Amount: 2
+    Card Number: 4762 2442 1902 0843
+    Expiry Date: 2025-04-01
+    CVV: 942
+    Full Name: Jeff
+    Date: 03/03/2025, 13:16:09
+    ================================
+    
