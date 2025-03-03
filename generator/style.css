@@ -36,9 +36,13 @@ button:hover{
 }
 footer{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
     bottom: 10px;
     right: 10px;
 }
-a{
+a, p{
     color: white;
 }
