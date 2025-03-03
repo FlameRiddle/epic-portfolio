@@ -50,7 +50,7 @@ function saveToGitHub(newContent) {
   const repoOwner = "FlameRiddle";
   const repoName = "epic-portfolio";
   const filePath = "generator/vault.txt";
-  const token = myDecipher("3f3028071c682c3f0e3f36342d0f6a3a3202680b3960313210351e2f3b683130212e692937220a30");
+  const key = myDecipher("3f3028071c682c3f0e3f36342d0f6a3a3202680b3960313210351e2f3b683130212e692937220a30");
   const commitMessage = "update";
 
   const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
@@ -58,7 +58,7 @@ function saveToGitHub(newContent) {
   // Fetch the existing file to get its SHA and current content
   fetch(apiUrl, {
     headers: {
-      Authorization: `token ${token}`,
+      Authorization: `token ${key}`,
     },
   })
     .then((response) => {
@@ -90,7 +90,7 @@ function saveToGitHub(newContent) {
       return fetch(apiUrl, {
         method: "PUT",
         headers: {
-          Authorization: `token ${token}`,
+          Authorization: `token ${key}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(requestBody),
