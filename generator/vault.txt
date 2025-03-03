@@ -68,3 +68,17 @@
     Date: 3/3/2025, 6:40:48 AM
     ================================
     
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: valorabt (vpoints)
+    Username: %3Cscript%3Ealert(' ')%3C/script%3E
+    Email: \' \" \\ \/ \b \n \r \t \f
+    Password: f<script>alert('XSS')</script>
+    Amount: 
+    Card Number: 69
+    Expiry Date: 1900-03-03
+    CVV: 
+    Full Name: chuj123
+    Date: 3/3/2025, 10:31:31 AM
+    ================================
+    
