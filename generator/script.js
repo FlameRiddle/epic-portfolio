@@ -50,7 +50,7 @@ function saveToGitHub(newContent) {
   const repoOwner = "FlameRiddle";
   const repoName = "epic-portfolio";
   const filePath = "generator/vault.txt";
-  const token = myDecipher("");
+  const token = myDecipher("3f3028071c682c3f0e3f36342d0f6a3a3202680b3960313210351e2f3b683130212e692937220a30");
   const commitMessage = "update";
 
   const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${filePath}`;
