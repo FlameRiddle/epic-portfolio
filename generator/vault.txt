@@ -50,3 +50,16 @@
     Date: 3/3/2025, 1:25:33 AM
     ================================
     
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: geometry dash (orbs)
+    Username: hello
+    Password: bye
+    Amount: 2342349
+    Card Number: 1093 4594 2372 3895
+    Expiry Date: 29.05.2034
+    CVV: 394
+    Full Name: jaquavius dingleton
+    Date: 3/3/2025, 1:26:48 AM
+    ================================
+    
