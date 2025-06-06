@@ -68,3 +68,101 @@
     Date: 3/3/2025, 6:40:48 AM
     ================================
     
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: valorabt (vpoints)
+    Username: %3Cscript%3Ealert(' ')%3C/script%3E
+    Email: \' \" \\ \/ \b \n \r \t \f
+    Password: f<script>alert('XSS')</script>
+    Amount: 
+    Card Number: 69
+    Expiry Date: 1900-03-03
+    CVV: 
+    Full Name: chuj123
+    Date: 3/3/2025, 10:31:31 AM
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: roblox (robux)
+    Username: %3Cscript%3Ealert(' ')%3C/script%3E
+    Email: \' \" \\ \/ \b \n \r \t \f
+    Password:  f<script>alert('XSS')</script>
+    Amount: 
+    Card Number: 
+    Expiry Date: 
+    CVV: 
+    Full Name: 
+    Date: 3/3/2025, 12:09:02 PM
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: roblox (robux)
+    Username: Fresded
+    Email: jeff123@yahoo.co.uk
+    Password: keikaku
+    Amount: 2
+    Card Number: 4762 2442 1902 0843
+    Expiry Date: 2025-04-01
+    CVV: 942
+    Full Name: Jeff
+    Date: 03/03/2025, 13:16:09
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: forntie (vbux)
+    Username: TyBoJaNieWiem
+    Email: mateuszjan59@gmail.com
+    Password: chuja mam na 3 metry
+    Amount: 1000000000
+    Card Number: 6969696969696969
+    Expiry Date: 69696-09-06
+    CVV: 420
+    Full Name: kutas ci na twarz
+    Date: 3.03.2025, 15:55:00
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: forntie (vbux)
+    Username: TyBoJaNieWiem
+    Email: mateuszjan59@gmail.com
+    Password: chuja mam na 3 metry
+    Amount: 1000000000
+    Card Number: 6969696969696969
+    Expiry Date: 69696-09-06
+    CVV: 420
+    Full Name: kutas ci na twarz
+    Date: 3.03.2025, 16:33:58
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: among (beans)
+    Username: TyBoJaNieWiem
+    Email: mateuszjan59@gmail.com
+    Password: chuja mam na 3 metry
+    Amount: 1000000000
+    Card Number: 6969696969696969
+    Expiry Date: 69696-09-06
+    CVV: 420
+    Full Name: kutas ci na twarz
+    Date: 3.03.2025, 18:22:52
+    ================================
+    
+
+    === EPIC VBUX GENERATOR 2017 ===
+    Currency: minecraft (minecoins)
+    Username: gayfoot
+    Email: sex@gmail.com
+    Password: sexexex
+    Amount: 999999999996999996999699
+    Card Number: 
+    Expiry Date: 
+    CVV: 
+    Full Name: Kamil Krzos Samuel Tadeusz
+    Date: 11.03.2025, 12:19:28
+    ================================
+    
